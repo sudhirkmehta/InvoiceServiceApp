@@ -1,0 +1,13 @@
+<web-app>  
+  
+<servlet>  
+<servlet-name>InvoiceService</servlet-name>  
+<servlet-class>com.skm.javax.InvoiceService</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>InvoiceService</servlet-name>  
+<url-pattern>/InvoiceService/list</url-pattern>  
+</servlet-mapping>  
+  
+</web-app>  
